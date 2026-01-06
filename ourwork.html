@@ -13,7 +13,7 @@
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="ourwork.html">Our Work</a></li>
+                <li><a href="ourwork.html" class="active">Our Work</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
             <div class="menu-toggle">☰</div>
@@ -22,22 +22,23 @@
 
     <section class="work">
         <h1>Our Work</h1>
-        <p>Check out some of our recent projects and testimonials from satisfied customers.</p>
+        <p>Recent installations and real jobs completed by our engineers.</p>
+
         <div class="work-grid">
-            <div class="work-item">
-                <img src="https://via.placeholder.com/400x300?text=Project+1" alt="Project 1">
+            <div class="work-card">
+                <img src="IMG_1286.jpeg" alt="Heating installation project">
             </div>
-            <div class="work-item">
-                <img src="https://via.placeholder.com/400x300?text=Project+2" alt="Project 2">
+
+            <div class="work-card">
+                <img src="IMG_1285.jpeg" alt="Boiler installation project">
             </div>
-            <div class="work-item">
-                <img src="https://via.placeholder.com/400x300?text=Project+3" alt="Project 3">
+
+            <div class="work-card">
+                <img src="IMG_1284.jpeg" alt="Gas engineer maintenance work">
             </div>
-            <div class="work-item">
-                <img src="https://via.placeholder.com/400x300?text=Project+4" alt="Project 4">
-            </div>
-            <div class="work-item">
-                <img src="https://via.placeholder.com/400x300?text=Project+5" alt="Project 5">
+
+            <div class="work-card">
+                <img src="IMG_1283.jpeg" alt="Completed heating system">
             </div>
         </div>
     </section>
@@ -49,6 +50,7 @@
     <script>
         const menuToggle = document.querySelector('.menu-toggle');
         const navLinks = document.querySelector('.nav-links');
+
         menuToggle.addEventListener('click', () => {
             navLinks.classList.toggle('active');
         });
