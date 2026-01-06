@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Gas Heating Engineer Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Example Gas Heating Engineer</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="ourwork.html">Our Work</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <video autoplay loop muted playsinline class="hero-video">
+            <source src="fireplace-loop.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-content">
+            <h1>Welcome to Example Gas Heating Engineer</h1>
+            <p>Trusted by over 3000 happy customers. 25 years experience.</p>
+            <a href="contact.html" class="cta-button">Get a Quote</a>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service-item">
+                <h3>Boiler Installation</h3>
+                <p>Expert installation of efficient gas boilers.</p>
+            </div>
+            <div class="service-item">
+                <h3>Gas Safety Checks</h3>
+                <p>Annual safety inspections to ensure compliance.</p>
+            </div>
+            <div class="service-item">
+                <h3>Heating Repairs</h3>
+                <p>Quick fixes for radiators, pipes, and systems.</p>
+            </div>
+            <div class="service-item">
+                <h3>Central Heating Systems</h3>
+                <p>Design and installation for optimal home warmth.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="areas">
+        <h2>Areas We Cover</h2>
+        <p>We serve the following locations:</p>
+        <ul>
+            <li>City Center</li>
+            <li>Suburbia North</li>
+            <li>Eastside Districts</li>
+            <li>South Valley</li>
+            <li>West End</li>
+        </ul>
+    </section>
+
+    <section class="hours">
+        <h2>Open Times</h2>
+        <p>Monday - Friday: 8 AM - 6 PM</p>
+        <p>Saturday: 9 AM - 4 PM</p>
+        <p>Sunday: Closed</p>
+        <p>24hr Call Out Available (Charges Apply)</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Example Gas Heating Engineer. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
